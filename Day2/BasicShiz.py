@@ -1,1 +1,3 @@
-print("im the man!")
+# data types
+# string
+print("Hello"[4])
