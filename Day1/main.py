@@ -1,16 +1,28 @@
-# This is a sample Python script.
+# basic print statement
+print("\nhello world")
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+# variables
+x = 56
+y = "John"
 
+# prints variables
+print(x)
+print(y)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+# a prompt for the user
+input("Do you like butts? ")
+print("Hello " + input("What is your name? "))
 
+# the "len" prints the length of the string
+print(len(input("Gimme a response hoe! ")))
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+# variable that's not just a number
+blank = input("Fill in the blank, you are a 'blank' ")
+print(blank)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# weird shit
+name = input("What is your name? ")  # stores the input as the variable name
+print(name)
+name = "jack"
+print(name)
+print("moooooooooooooo")
